@@ -22,14 +22,14 @@ if (!defined('WPINC')) {
 require_once __DIR__ . '/vendor/autoload.php';
 
 // Run plugin hooks and filters.
-if (!function_exists('wp_turbo_speed_initialize_plugin')) {
-  function wp_turbo_speed_initialize_plugin() {
+if (!function_exists('wp_angelyarmas_turbo_speed_initialize_plugin')) {
+  function wp_angelyarmas_turbo_speed_initialize_plugin() {
     if (class_exists('\\Angelyarmas\\WP_Turbo_Speed\\Hooks')) {
       $plugin = New \Angelyarmas\WP_Turbo_Speed\Hooks;
       $plugin->run();
     }
   }
 
-  wp_turbo_speed_initialize_plugin();
+  wp_angelyarmas_turbo_speed_initialize_plugin();
 }
 
