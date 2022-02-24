@@ -1,0 +1,19 @@
+{
+    "name": "angelyarmas/wp-optimizer",
+    "description": "Optimize WordPress sites",
+    "type": "wordpress-plugin",
+    "require": {
+        "cmb2/cmb2": "^2.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Angelyarmas\\WpOptimizer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ángel Yarmas",
+            "email": "angelyarmasmosquera@gmail.com"
+        }
+    ]
+}
