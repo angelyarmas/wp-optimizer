@@ -1,13 +1,13 @@
 {
     "name": "angelyarmas/wp-turbo-speed",
-    "description": "Optimize WordPress sites",
+    "description": "Optimize WordPress sites to reach maximum speed.",
     "type": "wordpress-plugin",
     "require": {
         "cmb2/cmb2": "^2.10"
     },
     "autoload": {
         "psr-4": {
-            "Angelyarmas\\WpTurboSpeed\\": "src/"
+            "Angelyarmas\\WP_Turbo_Speed\\": "src/"
         }
     },
     "authors": [
