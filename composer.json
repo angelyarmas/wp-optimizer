@@ -1,5 +1,5 @@
 {
-    "name": "angelyarmas/wp-optimizer",
+    "name": "angelyarmas/wp-turbo-speed",
     "description": "Optimize WordPress sites",
     "type": "wordpress-plugin",
     "require": {
@@ -7,7 +7,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Angelyarmas\\WpOptimizer\\": "src/"
+            "Angelyarmas\\WpTurboSpeed\\": "src/"
         }
     },
     "authors": [
